@@ -1,8 +1,9 @@
 .footer {
-  background-color: #1e1e2a;
+  background-color: #0a0a0a;
   color: #e2e8f0;
   padding: 2.5rem 0 1.5rem;
   margin-top: 2rem;
+  border-top: 1px solid #1a1a1a;
 }
 
 .footer-container {
@@ -17,30 +18,43 @@
 .footer-col h4 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: white;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .footer-col p {
   margin: 0.5rem 0;
   font-size: 0.9rem;
   line-height: 1.4;
+  color: #b0b0b0;
 }
 
-.copyright .mini-logo {
+.copyright {
+  margin-bottom: 1rem;
+}
+
+.copyright p {
+  margin: 0.25rem 0;
+}
+
+.mini-logo {
   margin-top: 0.5rem;
   display: flex;
   align-items: center;
   gap: 0.3rem;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .blocked-banner {
-  background-color: #2d2d3a;
+  background-color: #1a1a1a;
   padding: 0.5rem 0.8rem;
   border-radius: 2rem;
   font-size: 0.85rem;
   margin-top: 1rem;
   display: inline-block;
+  color: #f97316;
+  border: 1px solid #f97316;
 }
 
 .social-icons {
@@ -48,6 +62,15 @@
   gap: 1rem;
   margin: 1rem 0;
   font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.social-icons span {
+  transition: opacity 0.2s;
+}
+
+.social-icons span:hover {
+  opacity: 0.7;
 }
 
 .badges {
@@ -58,11 +81,12 @@
 }
 
 .badge {
-  background-color: #2d2d3a;
+  background-color: #1a1a1a;
   padding: 0.3rem 0.8rem;
   border-radius: 2rem;
   font-size: 0.75rem;
   font-weight: 600;
+  color: #e2e8f0;
 }
 
 .badge:last-child {
